@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.idCard {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.idCardPicture {
+  margin: 8px;
+  margin-top: 9px;
+}
+
+.idCardText {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 6px;
+}
+
+h1 {
+  text-align: left;
+  margin-left: 16px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
